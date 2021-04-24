@@ -13,7 +13,7 @@ public class MyApp : Gtk.Application {
             title = "Hello World"
         };
         var button_hello = new Gtk.Button.with_label ("Click me!") {
-            margin = 12
+            margin = 120
         };
         button_hello.clicked.connect (() => {
             button_hello.label = "Hello World!";
